@@ -153,3 +153,128 @@ footer {
         margin: 0 0.75rem;
     }
 }
+
+/* --- About Page Specific Styles --- */
+
+/* About Hero */
+.about-hero {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(180deg, #1a1a1a 0%, #121212 100%);
+    border-bottom: 1px solid #222;
+    padding: 0 1rem;
+}
+
+.about-hero h1 {
+    font-size: 2.8rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.about-hero .subtitle {
+    color: #888;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+/* Biography Content */
+.bio-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5rem 1.5rem 3rem 1.5rem;
+}
+
+.bio-text h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.bio-text p {
+    color: #b5b5b5;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+/* Strategic Quote block */
+.bio-text blockquote {
+    margin: 3rem 0;
+    padding-left: 1.5rem;
+    border-left: 3px solid #ffffff;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+/* Tools Section */
+.tools-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 6rem 1.5rem;
+    text-align: center;
+}
+
+.tools-container h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.tools-intro {
+    color: #a0a0a0;
+    max-width: 700px;
+    margin: 0 auto 3rem auto;
+    font-size: 1.05rem;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+/* Sharp, upright tool card design */
+.tool-card {
+    background-color: #161616;
+    border: 1px solid #252525;
+    padding: 2.5rem 1.5rem;
+    text-align: left;
+    position: relative;
+    border-radius: 4px;
+}
+
+.card-edge {
+    width: 25px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.tool-card h3 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.tool-card p {
+    color: #959595;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.about-cta {
+    margin-top: 2rem;
+}
+
+/* Active Link State */
+.navbar nav a.active {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 4px;
+}

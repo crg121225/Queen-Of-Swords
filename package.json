@@ -11,14 +11,16 @@
   "dependencies": {
     "@prisma/adapter-pg": "7.0.0",
     "@prisma/client": "7.0.0",
+    "express": "^5.2.1",
     "next": "15.3.8",
+    "pg": "8.20.0",
     "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "pg": "8.20.0"
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.3.5",
     "@types/node": "22.19.0",
+    "@types/pg": "8.20.0",
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",
     "dotenv": "17.3.1",
@@ -28,7 +30,23 @@
     "prisma": "7.0.0",
     "tailwindcss": "3.4.17",
     "tsx": "4.20.6",
-    "typescript": "5.8.2",
-    "@types/pg": "8.20.0"
-  }
+    "typescript": "5.8.2"
+  },
+  "description": "This example shows how to implement a fullstack app using [Next.js 15](https://nextjs.org/) with App Router, Prisma ORM and a [Prisma Postgres](https://www.prisma.io/postgres) database.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crg121225/Queen-Of-Swords.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/crg121225/Queen-Of-Swords/issues"
+  },
+  "homepage": "https://github.com/crg121225/Queen-Of-Swords#readme"
 }
